@@ -54,3 +54,39 @@ servidor-arquivos-criptografados/
 ├── package-lock.json        # Árvore de dependências resolvidas[cite: 32]
 ├── LICENSE                  # Licença de código aberto MIT
 └── README.md                # Documentação da aplicação
+
+🚀 Como Executar o Projeto Localmente
+Pré-requisitos
+Node.js (versão 18 ou superior)[cite: 32].
+
+Gerenciador de pacotes npm.
+
+Passo a passo
+Clone o repositório:
+
+Bash
+
+
+git clone [https://github.com/SEU-USUARIO/servidor-arquivos-criptografados.git](https://github.com/SEU-USUARIO/servidor-arquivos-criptografados.git)
+cd servidor-arquivos-criptografados
+Instale as dependências do projeto:
+
+Bash
+
+
+npm install
+Inicie o servidor em modo de desenvolvimento (com auto-reload):
+
+Bash
+
+
+npm run dev
+Este comando utiliza o nodemon apontando diretamente para backend/server.js[cite: 31].
+
+Ou inicie em modo de produção:
+
+Bash
+
+
+npm start
+Executa a aplicação diretamente com node backend/server.js[cite: 31].
